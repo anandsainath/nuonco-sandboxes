@@ -1,7 +1,7 @@
 module "sandbox" {
   # source  = "nuonco/aks-sandbox/azure"
   # version = "1.3.3"
-  source = "github.com/anandsainath/terraform-azure-aks-sandbox?ref=asainath/configurable-network"
+  source = "github.com/anandsainath/terraform-azure-aks-sandbox?ref=asainath%2Fconfigurable-network"
 
   location             = var.location
   nuon_id              = var.nuon_id
